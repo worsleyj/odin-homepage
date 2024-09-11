@@ -6,6 +6,11 @@
   justify-content: center;
 }
 
+.about-me-picture,
+.contact-me-image {
+  max-width: 550px;
+  height: auto;
+}
 .about-me-text {
   font-size: 36px;
   min-height: 80%;
@@ -65,4 +70,34 @@ i {
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .projects-container {
+    background-color: greenyellow;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  }
+  .about-me-picture,
+  .contact-me-image {
+    max-width: 250px;
+    height: auto;
+  }
+  * {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    background-color: red;
+    grid-template: 1fr / 1fr;
+  }
+  .about-me-picture,
+  .contact-me-image {
+    max-width: 160px;
+    height: auto;
+  }
+  * {
+    font-size: 12px;
+  }
 }
