@@ -6,7 +6,8 @@
 }
 
 .about-me-text {
-  height: 80%;
+  font-size: 36px;
+  min-height: 80%;
   padding: 20px;
 }
 
@@ -16,13 +17,36 @@
   gap: 24px;
 }
 
+.buttons-container {
+  margin-right: 60px;
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+}
+
+i {
+  cursor: pointer;
+  font-size: 38px;
+}
+
 .project {
   background-color: aqua;
   margin: 12px;
   padding: 12px;
 }
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 4px 6px 0;
+}
+
+.project-image {
+  cursor: pointer;
+}
+
 .footer-container {
+  background-color: rgb(92, 92, 92);
   gap: 24px;
   padding: 50px;
   display: flex;
@@ -30,7 +54,13 @@
   justify-content: center;
 }
 
+.contact-me-image {
+  transform: scaleX(-1);
+}
+
 .contact-me-container {
+  font-size: 24px;
+  color: white;
   display: flex;
   flex-direction: column;
 }
