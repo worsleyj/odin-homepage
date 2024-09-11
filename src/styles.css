@@ -6,11 +6,24 @@
   justify-content: center;
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-me-picture,
 .contact-me-image {
   max-width: 550px;
   height: auto;
 }
+
+.name {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
 .about-me-text {
   font-size: 36px;
   min-height: 80%;
