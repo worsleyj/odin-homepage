@@ -87,7 +87,6 @@ i {
 
 @media (max-width: 1200px) {
   .projects-container {
-    background-color: greenyellow;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
   }
   .about-me-picture,
@@ -102,7 +101,6 @@ i {
 
 @media (max-width: 600px) {
   .projects-container {
-    background-color: red;
     grid-template: 1fr / 1fr;
   }
   .about-me-picture,
