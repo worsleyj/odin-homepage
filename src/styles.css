@@ -2,6 +2,7 @@
   padding: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about-me-text {
@@ -19,4 +20,17 @@
   background-color: aqua;
   margin: 12px;
   padding: 12px;
+}
+
+.footer-container {
+  gap: 24px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
 }
